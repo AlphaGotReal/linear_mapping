@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+	<rosparam file="$(find backup_mapping)/config/map_params.yaml" command="load"/>
+	<rosparam file="$(find octopussy)/config/frames.yaml" command="load" />
+	<rosparam file="$(find octopussy)/config/topics.yaml" command="load"/>
+</launch>
+
+
